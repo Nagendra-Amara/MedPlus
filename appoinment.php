@@ -1,6 +1,6 @@
 <?php
 include('connect.php');
-$conn = mysqli_connect('localhost','root','','appointment') or die('connection failed');
+$conn = mysqli_connect('localhost','root','','MedPlus') or die('connection failed');
 
 if(isset($_POST['submit'])){
 
